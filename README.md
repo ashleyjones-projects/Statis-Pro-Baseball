@@ -6,3 +6,5 @@ When I was a young teenager I bought a board game called Statis Pro Baseball. Al
 As this is a copyrighted game (and assume the rights belong to Wizards of the Coast who are now a the sucessor), I am not willing to make all the code available. If anyone who holds the rights of this game want me to remove it from Github, I will gladly do so.
 
 This is still a work in progress, but I hope to have an up and running version soon enough! 
+
+Here, I provide the code used to produce batting and pitching cards. The formulas are provided as part of the instructions in the game. Typically stats are used for a current for a year to produce the cards, but I feel sometimes it can be a little unfair if a current player is injured for that season, so I produced the option to produce cards based on average stats. The statistics I have used have come from the very excellent website by Sean Lahman (http://www.seanlahman.com/baseball-archive/statistics/). I have used his excel sheets for this purpose, but SQL is also supported and can beasily implemented. Future renditions of this code I hope to be written using the Pandas library for easier database reading.
